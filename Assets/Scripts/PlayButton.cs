@@ -9,4 +9,14 @@ public class PlayButton : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+
+    public void PlayGameAI()
+    {
+        SceneManager.LoadScene("Game - AI");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
